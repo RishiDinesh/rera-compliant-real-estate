@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Maharashtra Housing Projects">
+    <title>Kurla</title>
+    <script src="public/script.js" defer></script>
+    <style>
+        body{
+            
+            background-image: url('public/images/kurla.jpeg');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+        }
+        h1{
+            text-align: center;
+            color: white;
+            background-color: black;
+        }
+        button {
+            background-size: cover;  /* Makes sure the image covers the button */
+            background-position: center;  /* Centers the image on the button */
+            border: solid;  
+            font-size: 16px;  /* Font size */
+            width: 400px;  /* Width of the button */
+            height: 300px;  /* Height of the button */
+            cursor: pointer;  /* Makes the cursor a pointer on hover */
+            transition: background-color 0.3s ease;
+            margin-left: 50px;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            border-color: aqua;
+            opacity: 0.8;  /* Optional: changes the button opacity on hover */
+            
+        }
+
+        #AQ{
+            background-image: url('public/images/ALQ.png');
+        }
+
+        #Galaxy{
+            background-image: url('public/images/GALAXY.png');
+        }
+
+        #Gulzar{
+            background-image: url('public/images/GULZAR.png');
+        }
+
+        #Omj{
+            background-image: url('public/images/OMJ.png');
+        }
+
+        #Kohinoor{
+            background-image: url('public/images/KOHINOOR.png');
+        }
+    
+    </style>
+    </head>
+    <body>
+        <h1>KURLA PROJECT LIST</h1>
+        <button id="AQ" onclick="window.location.href = 'public/pdfs/Al-quba.pdf'"></button>
+        <button id="Galaxy" onclick="window.location.href = 'public/pdfs/Galaxy.pdf'"></button>
+        <button id="Gulzar" onclick="window.location.href = 'public/pdfs/Gulzar.pdf'"></button>
+        <button id="Omj" onclick="window.location.href = 'public/pdfs/Om-jai.pdf'"></button>
+        <button id="Kohinoor" onclick="window.location.href = 'public/pdfs/kohinoor.pdf'"></button>
+    </body>
+    </html>

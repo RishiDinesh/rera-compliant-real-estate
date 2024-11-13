@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Maharashtra Housing Projects">
+    <script src="public/script.js" defer></script>
+    <title>Borivali</title>
+    <style>
+        body{
+            background-image: url('public/images/borivali.jpeg');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+        }
+        h1{
+            text-align: center;
+            color: white;
+            background-color: black;
+            
+        }
+        button {
+            background-size: cover;  /* Makes sure the image covers the button */
+            background-position: center;  /* Centers the image on the button */
+            border: solid;  
+            font-size: 16px;  /* Font size */
+            width: 400px;  /* Width of the button */
+            height: 300px;  /* Height of the button */
+            cursor: pointer;  /* Makes the cursor a pointer on hover */
+            transition: background-color 0.3s ease;
+            margin-left: 50px;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            border-color: aqua;
+            opacity: 0.8;  /* Optional: changes the button opacity on hover */
+            
+        }
+
+        #DGS{
+            background-image: url('public/images/DGS.png');
+        }
+
+        #Manhar{
+            background-image: url('public/images/MANHAR.png');
+        }
+
+        #Neel{
+            background-image: url('public/images/NEELYOG.png');
+        }
+
+        #tatva{
+            background-image: url('public/images/TATVA.png');
+        }
+
+        #vardhman{
+            background-image: url('public/images/VARDHMAN.png');
+        }
+    </style>
+</head>
+<body>
+
+    <h1>BORIVALI PROJECT LIST</h1>
+
+    <button id="DGS" onclick="window.location.href='public/pdfs/DGS Heights.pdf'"></button>
+    <button id="Manhar" onclick="window.location.href='public/pdfs/Manhar Residency.pdf'"></button>
+    <button id="Neel" onclick="window.location.href='public/pdfs/Neelyog Aashiyana.pdf'"></button>
+    <button id="tatva" onclick="window.location.href='public/pdfs/Tatva.pdf'"></button>
+    <button id="vardhman" onclick="window.location.href='public/pdfs/Vardhman Empire.pdf'"></button>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Maharashtra Housing Projects">
+    <script src="public/script.js" defer></script>
+    <title>Andheri</title>
+    <style>
+        body{
+            background-image: url('public/images/andheri.jpeg');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+        }
+        h1{
+            text-align: center;
+            color: white;
+            background-color: black;
+            
+        }
+        button {
+            background-size: cover;  /* Makes sure the image covers the button */
+            background-position: center;  /* Centers the image on the button */
+            border: solid;  
+            font-size: 16px;  /* Font size */
+            width: 400px;  /* Width of the button */
+            height: 300px;  /* Height of the button */
+            cursor: pointer;  /* Makes the cursor a pointer on hover */
+            transition: background-color 0.3s ease;
+            margin-left: 50px;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            border-color: aqua;
+            opacity: 0.8;  /* Optional: changes the button opacity on hover */
+            
+        }
+        #Orchid{
+            background-image: url('public/images/Orchid.png');
+            gap: 20px;
+        }
+        #Aryaman{
+            background-image: url('public/images/aryman.png');
+        }
+        #Tungwa{
+            background-image: url('public/images/TUNGWA.png');
+        }
+        #Deluxe{
+            background-image: url('public/images/DELUXE.png');
+        }
+        #Prem-Sagar{
+            background-image: url('public/images/prem\ sagar.png');
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>ANDHERI PROJECT LIST</h1>
+    <button id="Orchid" onclick="window.location.href='public/pdfs/Orchid.pdf'"></button>
+    <button id="Aryaman" onclick="window.location.href='public/pdfs/aryaman.pdf'"></button>
+    <button id="Prem-Sagar" onclick="window.location.href='public/pdfs/Prem.pdf'"></button>
+    <button id="Tungwa" onclick="window.location.href='public/pdfs/Tungwa.pdf'"></button>
+    <button id="Deluxe" onclick="window.location.href='public/pdfs/Deluxe.pdf'"></button>
+</body>
+</html>
